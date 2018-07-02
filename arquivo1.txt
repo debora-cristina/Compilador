@@ -1,0 +1,17 @@
+  import cx_Oracle end_of_line 
+uóe  =   "user"      end_of_line 
+pwd  =   "senha"     end_of_line 
+db  =   "db_conf"    end_of_line 
+connection  =  cx_Oracle . connect ( uid + " / " + pwd + " @ " + db )   end_of_line 
+cursor  =  connection . cursor (  )   end_of_line 
+cursor . execute ( "SELECT * from tab" )   end_of_line 
+result  =  cursor . fetchone (  )    end_of_line 
+if result  ==  None :   end_of_line 
+        print "Nenhum Resultado  ? " end_of_line 
+        exit end_of_line 
+else :  end_of_line 
+        while result :     end_of_line 
+                print result [ 0 ]  end_of_line 
+                result  =  cursor . fetchone (  )  end_of_line 
+cursor . close (  )  end_of_line 
+connection . close (  )  end_of_line 

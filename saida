@@ -1,0 +1,108 @@
+indent -  
+import - Palavra reservada 
+cx_Oracle - identificador
+end_of_line -  
+uóe - identificador invalido
+= - delimitador 
+" - delimitador 
+"user" - sequencia char entre aspas
+end_of_line -  
+pwd - identificador
+= - delimitador 
+" - delimitador 
+"senha" - sequencia char entre aspas
+end_of_line -  
+db - identificador
+= - delimitador 
+" - delimitador 
+"db_conf" - sequencia char entre aspas
+end_of_line -  
+connection - identificador
+= - delimitador 
+cx_Oracle - identificador
+. - delimitador 
+connect - identificador
+( - delimitador 
+uid - identificador
++ - operador 
+" - delimitador 
+" / " - sequencia char entre aspas
++ - operador 
+pwd - identificador
++ - operador 
+" - delimitador 
+" @ " - sequencia char entre aspas
++ - operador 
+db - identificador
+) - delimitador 
+end_of_line -  
+cursor - identificador
+= - delimitador 
+connection - identificador
+. - delimitador 
+cursor - identificador
+( - delimitador 
+) - delimitador 
+end_of_line -  
+cursor - identificador
+. - delimitador 
+execute - identificador
+( - delimitador 
+" - delimitador 
+"SELECT * from tab" - sequencia char entre aspas
+) - delimitador 
+end_of_line -  
+result - identificador
+= - delimitador 
+cursor - identificador
+. - delimitador 
+fetchone - identificador
+( - delimitador 
+) - delimitador 
+end_of_line -  
+if - Palavra reservada 
+result - identificador
+== - operador 
+None - Palavra reservada 
+: - delimitador 
+end_of_line -  
+print - Palavra reservada 
+" - delimitador 
+neg	
+end_of_line -  
+exit - identificador
+end_of_line -  
+else - Palavra reservada 
+: - delimitador 
+end_of_line -  
+while - Palavra reservada 
+result - identificador
+: - delimitador 
+end_of_line -  
+print - Palavra reservada 
+result - identificador
+[ - delimitador 
+0 - numerico inteiro
+] - delimitador 
+end_of_line -  
+result - identificador
+= - delimitador 
+cursor - identificador
+. - delimitador 
+fetchone - identificador
+( - delimitador 
+) - delimitador 
+end_of_line -  
+cursor - identificador
+. - delimitador 
+close - identificador
+( - delimitador 
+) - delimitador 
+end_of_line -  
+connection - identificador
+. - delimitador 
+close - identificador
+( - delimitador 
+) - delimitador 
+end_of_line -  
+end -  

@@ -1,0 +1,16 @@
+import random end_of_line
+ x  =  range ( 100 )  end_of_line
+ random . shuffle ( x )  end_of_line
+ while ( True )  :  end_of_line
+ 	Num  =  input ( ' Digite o Valor :  ' )  end_of_line
+ 	if ( Num  ==  x [ 0 ]  )  :  end_of_line
+ 		print ' Voce Acertou o Numero e  :  ' end_of_line
+ 		cont  *  *   end_of_line
+ 		break end_of_line
+ 	else :  end_of_line
+ 	if ( Num  >  =  x [ 0 ]  )  :  end_of_line
+ 		print ' O Numero e Menor ' end_of_line
+ 		else :  end_of_line
+ 		print ' O Numero e Maior ' end_of_line
+ raw_input ( ' .  .  . ' )  end_of_line
+ 

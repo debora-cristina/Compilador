@@ -1,0 +1,21 @@
+ #  - * -  coding: utf - 8  - * - 
+import random
+
+x  =  range(100)
+random.shuffle(x)
+
+while(True):
+	Num  =  input(' Digite o Valor: ')
+
+	if(Num  ==  x[0]):
+		print ' Voce Acertou o Numero e : '
+		cont ++ 
+		break
+	else:
+	if(Num > x[0]):
+		print ' O Numero e Menor '
+		else:
+		print ' O Numero e Maior '
+
+raw_input('...')
+ 
